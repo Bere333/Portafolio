@@ -12,7 +12,7 @@ header{
     margin-top: 0;
 }
 
-.navbar{
+/* .navbar{
     width: auto;
     height: 10vh;
     background-color: #7A9DD2;
@@ -20,7 +20,7 @@ header{
     font-family: 'Roboto Mono', monospace;
     color: white;
     text-decoration: none;
-}
+} */
 .menu{
     margin-left: 40rem;
 }
