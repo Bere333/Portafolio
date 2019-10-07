@@ -6,6 +6,13 @@
 header{
    margin:0; 
 }
+.section-main{
+    width: auto;
+    height: 640px;
+   background-image: url('./img/earth-1149733_1920.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
 
 
 .m-t{
