@@ -6,19 +6,44 @@
 header{
    margin:0; 
 }
-.section-main{
-    width: auto;
-    height: 640px;
-   background-image: url('./img/earth-1149733_1920.jpg');
-   background-size: cover;
-   background-repeat: no-repeat;
+.presentation{
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+    
+
+
+}
+.front-end{
+    font-size: 12px;
 }
 
-
-.m-t{
-    margin-top: 0;
-}
-
-.menu{
-    margin-left: 40rem;
+@media only screen and (min-width : 1224px) {
+    
+    .section-main{
+        width: auto;
+        height: 640px;
+       background-image: url('./img/earth-1149733_1920.jpg');
+       background-size: cover;
+       background-repeat: no-repeat;
+       
+    }
+    
+    .m-t{
+        margin-top: 0;
+    }
+    
+    .menu{
+        margin-left: 40rem;
+    }
+    .presentation{
+        color: antiquewhite;
+        position: fixed;
+        margin-top: 5rem;
+        
+        
+    }
+    
 }
