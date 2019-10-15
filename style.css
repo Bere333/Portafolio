@@ -1,26 +1,44 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+*, /*Con esto ya no se mueve el navbar*/
+*:before,
+*:after {
+    box-sizing: inherit;
 }
+
 header{
    margin:0; 
 }
-.presentation{
+body{
     display: flex;
-    align-items: center;
-    margin-left: 1.5rem;
     flex-direction: column;
-    font-family: 'Roboto Mono', monospace;
+}
+.section-main{
+    width:100%;
+    height: 90vh;
+    background-image: url('./img/earth-1149733_1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
     
 
 
 }
-.front-end{
-    font-size: 12px;
+.my-name{
+    margin-left: 6rem;
+    margin-top: 5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:20px;
+    
+}
+.inicio-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: brown;
 }
 
-@media only screen and (min-width : 1224px) {
+
+@media only screen and (min-width : 1224px) { /*Vista de computadora*/
     
     .section-main{
         width: auto;
@@ -41,9 +59,12 @@ header{
     .presentation{
         color: antiquewhite;
         position: fixed;
-        margin-top: 5rem;
+        margin-top: 12rem;
         
         
+    }
+    .tabs, .is-centered, header{
+        display: block;
     }
     
 }
