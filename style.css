@@ -5,9 +5,9 @@
     box-sizing: inherit;
 }
 
-.navbar-menu, .navbar-brand{
+/* .navbar-menu, .navbar-brand{
     background-color: #3c70a4;
-}
+} */
 
 header{
    margin:0; 
@@ -74,17 +74,15 @@ body{
 
 }
 .my-text-proyects{
-    width: 20rem;
-    height: 30vh;
-    margin-left: 5rem;
-    margin-top: 4rem;
-    background-image: url('./img/blob-shape.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: -4rem;
+    margin-left: 0.5rem;
+    margin-top: 2rem;
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 20px;
+    text-align: center;
     
+}
+.text-proyects{
+    margin-top: 5vh;
 }
 .proyect-1{
     display: flex;
