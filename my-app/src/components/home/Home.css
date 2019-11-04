@@ -11,19 +11,16 @@
 header{
    margin:0; 
 }
-body{
-    display: flex;
-    flex-direction: column;
-}
+
 .section-main{
-    width:183%;
+    width:auto;
     height: 93vh;
     background-image: url('./img/earth-1149733_1920.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     color: aliceblue;
-    margin-top: -7vh;
-    margin-left: -6rem;
+    
+   
     
 }
 .my-name{
@@ -32,7 +29,10 @@ body{
     margin-left: 2rem;
     font-family: 'Pathway Gothic One', sans-serif;
     font-size:26px;
+   
+   
     
     
 }
+
 
