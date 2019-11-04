@@ -12,7 +12,7 @@ const Menu = ({ open, ...props }) => {
       <a href="/" tabIndex={tabIndex}>
         Inicio
       </a>
-      <a href="/" tabIndex={tabIndex}>
+      <a href=".../About/About.js" tabIndex={tabIndex}>
         Sobre mi
         </a>
       <a href="/" tabIndex={tabIndex}>

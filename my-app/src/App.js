@@ -8,6 +8,7 @@ import Menu from './components/Menu/'
 import FocusLock from 'react-focus-lock';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './components/home/Home';
+import About from './components/About/About'
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -28,7 +29,8 @@ function App() {
           </FocusLock>
           <Router basename={window.location.pathname || ""}>
             <Switch>
-            <Route exact path="/" component={Home}/>
+              <Route exact path="/" component={Home}/>
+              <Route exact path="/About" component={About}/>
             </Switch>
           </Router>
         </div>
