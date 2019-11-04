@@ -9,10 +9,9 @@ class Home extends React.Component{
     render(){
         return(
             <section className="section-main">
-                {/* <Burger></Burger> */}
-            <div className="my-name">
-              <p className="front-end">Brenda Berenice Ramos Hernández<br></br>Front-End Development</p>
-            </div>
+                <div className="my-name">
+                    <p className="front-end">Brenda Berenice Ramos Hernández<br></br>Front-End Development</p>
+                </div>
             </section>
         )
     }
