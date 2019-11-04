@@ -18,6 +18,7 @@ header{
     background-image: url('./img/earth-1149733_1920.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: -4rem;
     color: aliceblue;
     
    
