@@ -16,7 +16,7 @@ const Menu = ({ open, ...props }) => {
           <Link to="/Sobre mi">Sobre mi</Link>
           <Link to="/Proyectos">Proyectos</Link>
           <Link to="/Experimentos">Experimentos</Link>
-          <Link to="/About">Contacto</Link>
+          <Link to="/Contacto">Contacto</Link>
       </BrowserRouter>
       
       
