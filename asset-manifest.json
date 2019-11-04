@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portafolio/static/css/main.1699ba80.chunk.css",
+    "main.js": "/Portafolio/static/js/main.d0b985f0.chunk.js",
+    "main.js.map": "/Portafolio/static/js/main.d0b985f0.chunk.js.map",
+    "runtime-main.js": "/Portafolio/static/js/runtime-main.4daf7d2c.js",
+    "runtime-main.js.map": "/Portafolio/static/js/runtime-main.4daf7d2c.js.map",
+    "static/js/2.3310a0bf.chunk.js": "/Portafolio/static/js/2.3310a0bf.chunk.js",
+    "static/js/2.3310a0bf.chunk.js.map": "/Portafolio/static/js/2.3310a0bf.chunk.js.map",
+    "index.html": "/Portafolio/index.html",
+    "precache-manifest.1a88deaf87956d19bad69796ac79f493.js": "/Portafolio/precache-manifest.1a88deaf87956d19bad69796ac79f493.js",
+    "service-worker.js": "/Portafolio/service-worker.js",
+    "static/css/main.1699ba80.chunk.css.map": "/Portafolio/static/css/main.1699ba80.chunk.css.map",
+    "static/media/Home.css": "/Portafolio/static/media/earth-1149733_1920.1c86ad47.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4daf7d2c.js",
+    "static/js/2.3310a0bf.chunk.js",
+    "static/css/main.1699ba80.chunk.css",
+    "static/js/main.d0b985f0.chunk.js"
+  ]
+}
