@@ -1,0 +1,31 @@
+#about-me{
+    width: auto;
+    height: 100vh;
+    background-color: #FFFFFF;
+    
+}
+.description-text{
+    text-align: center;
+    padding: 4rem 2rem 0.5rem 2rem;
+    color:#2B2B2B;
+    
+
+}
+.my-description{
+    width: auto;
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 20px;
+    color:#F98695;
+
+}
+#robot{
+    height: 40vh;
+    width: auto;
+    border-radius: 10px;
+    margin: 0.5rem 4.5rem 1rem 3rem;
+}
