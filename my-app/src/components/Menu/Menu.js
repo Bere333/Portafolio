@@ -11,14 +11,13 @@ const Menu = ({ open, ...props }) => {
 
   return (
     <StyledMenu open={open} aria-hidden={!isHidden} {...props}>
-      <BrowserRouter>
-          <Link to="/">Inicio</Link>
-          <Link to="/Sobre mi">Sobre mi</Link>
+     <BrowserRouter>
+          <Link to={"/"}>Inicio</Link>
+          <Link to={"/about"}>Sobre mi</Link>
           <Link to="/Proyectos">Proyectos</Link>
           <Link to="/Experimentos">Experimentos</Link>
           <Link to="/Contacto">Contacto</Link>
       </BrowserRouter>
-      
       
     </StyledMenu>
   )
