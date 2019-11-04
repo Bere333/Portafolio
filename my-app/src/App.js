@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { useOnClickOutside } from './hooks';
-import { GlobalStyles } from './global';
+// import { GlobalStyles } from './global';
 import { theme } from './theme';
 import Burger from './components/Burger/Burger';
 import Menu from './components/Menu/'
@@ -19,17 +19,18 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <>
-        <GlobalStyles />
-        <div ref={node}>
+        {/* <GlobalStyles /> */}
+        <div>
+          {/* <div ref={node}> */}
           <FocusLock disabled={!open}>
             <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
             <Menu open={open} setOpen={setOpen} id={menuId} />
           </FocusLock>
-        <Router basename={window.location.pathname || ""}>
-        <Switch>
-        <Route exact path="/" component={Home}/>
-        </Switch>
-        </Router>
+          <Router basename={window.location.pathname || ""}>
+            <Switch>
+            <Route exact path="/" component={Home}/>
+            </Switch>
+          </Router>
         </div>
         
         
