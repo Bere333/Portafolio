@@ -8,9 +8,10 @@ class About extends React.Component{
         return(
             <section className="section-about" id="about-me">
                 
+                
                 <p class="description-text">¡Hola!, 
                 <br></br>mi nombre es Berenice Ramos.<br></br>
-                    Soy una desarrolladora Front-End y<br></br>
+                    Soy una desarrolladora Front-End, <br></br>
                     amante de la ciencia y la tecnología.<br></br>
                     Mi hobbie es investigar temas que <br></br>
                     me apasionen y sean <br></br>

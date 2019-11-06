@@ -13,13 +13,14 @@ header{
 }
 
 .section-main{
-    width:auto;
+    width:inherit;
     height: 100vh;
     background-image: url('./img/earth-1149733_1920.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: -4rem;
     color: aliceblue;
+    margin-right: 0;
     
    
     
@@ -35,4 +36,14 @@ header{
     
 }
 
+@media screen and (min-width: 800px) {
+    .section-main{
+        
+        background-size: inherit;  
+    }  
+    .my-name{
+        font-size: 40px;
+        text-align: center;
+    }
+}
 
