@@ -30,7 +30,7 @@ function App() {
           <Router basename={window.location.pathname || ""}>
             <Switch>
               <Route exact path="/" component={Home}/>
-              <Route path="/about" component={About}/>
+              <Route exact path="/about" component={About}/>
             </Switch>
           </Router>
         </div>
