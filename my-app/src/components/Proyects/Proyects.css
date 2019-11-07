@@ -1,0 +1,22 @@
+.section-proyects{
+    width:inherit;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.text-proyects{
+    text-align: right;
+    padding: 5rem 1rem 1rem 3rem;
+
+}
+.image-slider{
+    height: 10vh;
+}
+@media screen and (min-width: 800px) {
+    .section-proyects{
+        width:inherit;
+        
+    };
+
+}

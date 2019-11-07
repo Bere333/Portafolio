@@ -1,7 +1,8 @@
 import React from "react";
 // import { withRouter} from "react-router-dom"
 import './Home.css';
-import About from '../About/About.js'
+import About from '../About/About'
+import Proyects from '../Proyects/Proyects'
 
 // import { Burger, Menu } from '../Burger/';
 
@@ -17,6 +18,7 @@ class Home extends React.Component{
                 </div>
             </section>
                 <About></About>
+                <Proyects></Proyects>
 
             </article>
         )
