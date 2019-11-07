@@ -1,0 +1,32 @@
+.section-proyects{
+    width:inherit;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.text-proyects{
+    text-align: center;
+    padding: 2rem 1rem 4rem 3rem;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 20px;
+
+}
+.image-slider{
+    height: 10vh;
+}
+.text-pro{
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 17px;
+}
+@media screen and (min-width: 800px) {
+    .section-proyects{
+        width:inherit;
+        
+    };
+    .image-slider{
+        height: 10vh;
+    }
+
+}

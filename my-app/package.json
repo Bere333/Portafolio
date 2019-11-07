@@ -2,13 +2,15 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://bere333.github.io/Portafolio/",
+  "homepage": "https://bere333.github.io/Portafolio/",
   "dependencies": {
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-focus-lock": "^2.2.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
+    "react-slick": "^0.25.2",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^4.4.0"
   },
   "scripts": {
