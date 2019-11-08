@@ -60,16 +60,16 @@ class SimpleSlider extends React.Component {
             
           </div> */}
           <div>
-          <img src={Chain} alt="imagen abstracta" id="image-slider" className="img-slider"></img>
-          <p className="text-pro">Librería para encontrar links rotos</p>
+            <img src={Chain} alt="imagen abstracta" id="image-slider" className="img-slider"></img>
+            <p className="text-pro">Librería para encontrar links rotos</p>
           </div>
           <div>
-          <img src={Fur} alt="imagen abstracta" id="image-slider" ></img>
-          <p className="text-pro">Fur App: Red Social</p>
+            <img src={Fur} alt="imagen abstracta" id="image-slider" ></img>
+            <p className="text-pro">Fur App: Red Social</p>
           </div>
           <div>
-          <img src={Pan} alt="imagen abstracta" id="image-slider"></img>
-          <p className="text-pro">Aplicación web para realizar pedidos<br></br>en un restaurant de comida rápida</p>
+            <img src={Pan} alt="imagen abstracta" id="image-slider"></img>
+            <p className="text-pro">Aplicación web para realizar pedidos<br></br>en un restaurant de comida rápida</p>
           </div>
          
          

@@ -21,7 +21,8 @@ export const StyledMenu = styled.nav`
     font-size: 2rem;
     text-transform: uppercase;
     padding: 2rem 0;
-    font-family: 'Fugaz One', cursive;
+    color:#373A47;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     letter-spacing: 0.5rem;
     color: ${({ theme }) => theme.primaryDark};
