@@ -7,7 +7,8 @@
 .description-text{
     text-align: center;
     padding: 4rem 2rem 0.5rem 2rem;
-    color:#2B2B2B;
+    color:#373A47;
+    font-family: 'Raleway', sans-serif;
     
 
 }
@@ -18,7 +19,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Fugaz One', cursive;
     font-size: 20px;
     color:#F98695;
 

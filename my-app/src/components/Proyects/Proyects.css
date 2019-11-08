@@ -8,14 +8,16 @@
 .text-proyects{
     text-align: center;
     padding: 2rem 1rem 4rem 3rem;
-    font-family: 'Pathway Gothic One', sans-serif;
+    color:#373A47;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
 
 }
 
 .text-pro{
     text-align: center;
-    font-family: 'Pathway Gothic One', sans-serif;
+    color:#373A47;
+    font-family: 'Raleway', sans-serif;
     font-size: 17px;
 }
 @media screen and (min-width: 800px) {
