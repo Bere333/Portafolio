@@ -12,9 +12,7 @@
     font-size: 20px;
 
 }
-.image-slider{
-    height: 10vh;
-}
+
 .text-pro{
     text-align: center;
     font-family: 'Pathway Gothic One', sans-serif;
@@ -25,8 +23,6 @@
         width:inherit;
         
     };
-    .image-slider{
-        height: 10vh;
-    }
+    
 
 }
