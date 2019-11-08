@@ -19,7 +19,33 @@ class SimpleSlider extends React.Component {
           speed: 1500,
           autoplaySpeed: 2000,
           cssEase: "linear",
-          adaptiveHeight: true
+          adaptiveHeight: true,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
       };
       
       return (
@@ -34,11 +60,11 @@ class SimpleSlider extends React.Component {
             
           </div> */}
           <div>
-          <img src={Chain} alt="imagen abstracta" id="image-slider"></img>
+          <img src={Chain} alt="imagen abstracta" id="image-slider" className="img-slider"></img>
           <p className="text-pro">Librería para encontrar links rotos</p>
           </div>
           <div>
-          <img src={Fur} alt="imagen abstracta" id="image-slider" width="500"></img>
+          <img src={Fur} alt="imagen abstracta" id="image-slider" ></img>
           <p className="text-pro">Fur App: Red Social</p>
           </div>
           <div>
