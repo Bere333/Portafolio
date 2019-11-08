@@ -10,7 +10,7 @@ class Proyects extends React.Component{
         return(
             <section className="section-proyects">
                 <p className="text-proyects">Estos son proyectos que he realizado 
-                <br></br>y me ha apasionado:</p>
+                <br></br>y me han apasionado:</p>
                 <Slider></Slider>
             </section>
         )
