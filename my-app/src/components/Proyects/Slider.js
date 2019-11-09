@@ -27,7 +27,9 @@ class SimpleSlider extends React.Component {
                 slidesToShow: 1,
                 slidesToScroll: 3,
                 infinite: true,
-                dots: true
+                dots: true,
+                display: true,
+                width: 60
               }
             },
             {
@@ -51,7 +53,7 @@ class SimpleSlider extends React.Component {
       return (
         <div>
 
-        <Slider {...settings}>
+        <Slider {...settings} >
 {/*      
           <div>
           <img src={Imagen} alt="imagen abstracta" id="image-slider" ></img>

@@ -30,7 +30,7 @@ header{
     flex-direction: column;
     margin-left: 2rem;
     font-family: 'Raleway', sans-serif;
-    font-size:18px;
+    font-size:26px;
     text-align: right;
     padding: 6rem 1rem 3rem 0.5rem;  
     
@@ -45,5 +45,6 @@ header{
         font-size: 40px;
         text-align: center;
     }
+    
 }
 

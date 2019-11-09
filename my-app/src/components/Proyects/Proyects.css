@@ -25,6 +25,8 @@
         width:inherit;
         
     };
-    
+    #slider{
+        display: none;
+    }
 
 }
