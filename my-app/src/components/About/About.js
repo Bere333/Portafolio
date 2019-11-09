@@ -17,7 +17,7 @@ class About extends React.Component{
                     me apasionen y sean <br></br>
                     utiles para la sociedad.<br></br>
                     Mi sueño es usar la física y la programación<br></br>
-                    para desarrollo de la investigación.<br></br><br></br><br></br></p>
+                    para desarrollo de la investigación y de la sociedad.<br></br><br></br><br></br></p>
                 <img src={Image} alt="imagen abstracta" id="robot"></img>
             </section>
         )
