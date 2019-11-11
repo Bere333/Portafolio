@@ -9,7 +9,7 @@ class About extends React.Component{
             <section className="section-about" id="about-me">
                 
                 
-                <p class="description-text">¡Hola! 
+                <p className="description-text">¡Hola! 
                 <br></br>Mi nombre es Berenice Ramos.<br></br>
                     Soy una desarrolladora Front-End, <br></br>
                     amante de la ciencia y la tecnología.<br></br>

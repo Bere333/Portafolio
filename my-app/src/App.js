@@ -21,12 +21,13 @@ function App() {
     <ThemeProvider theme={theme}>
       <>
         {/* <GlobalStyles /> */}
-        <div>
-          {/* <div ref={node}> */}
+        
+          <div ref={node}> 
           <FocusLock disabled={!open}>
             <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
             <Menu open={open} setOpen={setOpen} id={menuId} />
           </FocusLock>
+          
           <Router basename={window.location.pathname || ""}>
             <Switch>
               <Route exact path="/" component={Home}/>
@@ -34,6 +35,7 @@ function App() {
             </Switch>
           </Router>
         </div>
+
         
         
       </>

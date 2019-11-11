@@ -20,24 +20,25 @@ class SimpleSlider extends React.Component {
           autoplaySpeed: 2000,
           cssEase: "linear",
           adaptiveHeight: true,
+          variableWidth: true,
           responsive: [
             {
               breakpoint: 1024,
               settings: {
                 slidesToShow: 1,
-                slidesToScroll: 3,
+                slidesToScroll: 1,
                 infinite: true,
                 dots: true,
                 display: true,
-                width: 60
+                
               }
             },
             {
               breakpoint: 600,
               settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                initialSlide: 2
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1
               }
             },
             {
@@ -62,15 +63,15 @@ class SimpleSlider extends React.Component {
             
           </div> */}
           <div>
-            <img src={Chain} alt="imagen abstracta" id="image-slider" className="img-slider"></img>
+            <img src={Chain} alt="imagen abstracta" id="image-slider" className="img-slider" style={{ width: 360 }}></img>
             <p className="text-pro">Librería para encontrar links rotos</p>
           </div>
           <div>
-            <img src={Fur} alt="imagen abstracta" id="image-slider" ></img>
+            <img src={Fur} alt="imagen abstracta" id="image-slider" style={{ width: 360 }}></img>
             <p className="text-pro">Fur App: Red Social</p>
           </div>
           <div>
-            <img src={Pan} alt="imagen abstracta" id="image-slider"></img>
+            <img src={Pan} alt="imagen abstracta" id="image-slider" style={{ width: 360 }}></img>
             <p className="text-pro">Aplicación web para realizar pedidos<br></br>en un restaurant de comida rápida</p>
           </div>
          
