@@ -8,7 +8,8 @@ import Menu from './components/Menu/'
 import FocusLock from 'react-focus-lock';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './components/home/Home';
-import About from './components/About/About'
+import About from './components/About/About';
+import './App.css';
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -24,7 +25,9 @@ function App() {
         
           <div ref={node}> 
           <FocusLock disabled={!open}>
+            <div className="burger">
             <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
+            </div>
             <Menu open={open} setOpen={setOpen} id={menuId} />
           </FocusLock>
           

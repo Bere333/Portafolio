@@ -16,6 +16,7 @@ const Menu = ({ open, ...props }) => {
           <Link to={"/"} tabIndex={tabIndex}>Inicio</Link>
           <Link to={"/about"} tabIndex={tabIndex} >Sobre mi</Link>
           <Link to="/Proyectos" tabIndex={tabIndex}>Proyectos</Link>
+          <Link to="/Aptitudes" tabIndex={tabIndex}>Aptitudes</Link>
           <Link to="/Experimentos" tabIndex={tabIndex}>Experimentos</Link>
           <Link to="/Contacto" tabIndex={tabIndex}>Contacto</Link>
       </BrowserRouter>

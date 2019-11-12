@@ -1,0 +1,14 @@
+.navbar-escritorio{
+    display: none;
+}
+@media screen and (min-width: 800px) {
+    .navbar-escritorio{
+        display: block;
+        width: inherit;
+       
+        height: 10vh;
+        background-color: #FAD4FC;
+        position: fixed;
+        
+    }
+}
