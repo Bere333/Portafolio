@@ -1,8 +1,14 @@
+*, /*Con esto ya no se mueve el navbar*/
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 .section-proyects{
     width:inherit;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    
 
 }
 .text-proyects{
@@ -20,13 +26,19 @@
     font-family: 'Raleway', sans-serif;
     font-size: 17px;
 }
+.slider-box{
+    width: 360;
+    justify-items: center; 
+    
+}
+
+
 @media screen and (min-width: 800px) {
     .section-proyects{
         width:inherit;
         
     };
-    #slider{
-        display: none;
-    }
+    
+    
 
 }

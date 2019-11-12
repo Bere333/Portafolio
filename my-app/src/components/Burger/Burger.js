@@ -20,4 +20,4 @@ Burger.propTypes = {
   setOpen: func.isRequired,
 };
 
-export default Burger;
+export default Burger

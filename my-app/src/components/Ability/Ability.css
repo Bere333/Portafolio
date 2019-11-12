@@ -1,0 +1,59 @@
+.section-ability{
+    width:inherit;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: #F98D90; */
+}
+.text-ability{
+    font-family: 'Raleway', sans-serif;
+    margin:2rem 1rem 2rem 1rem;
+    font-size: 20px;
+    
+
+}
+.ability-image{
+    margin-left: 0.5rem;
+    height: 30vh;
+}
+.images-ability{
+    display: flex;
+    flex-direction: row;
+
+}
+.avatar{
+    display: none;
+  
+}
+.list-ability{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 4vh;
+
+}
+.image-list{
+    height: 7vh;
+}
+.images-ability{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media screen and (min-width: 800px) {
+    .images-ability{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .avatar{
+        display: block;
+        height: 80vh;
+    }
+    .image-list{
+        height: 7vh;
+    }
+
+}

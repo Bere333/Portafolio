@@ -11,7 +11,9 @@ class Proyects extends React.Component{
             <section className="section-proyects">
                 <p className="text-proyects">Estos son proyectos que he realizado 
                 <br></br>y me han apasionado:</p>
-                <Slider id="slider"></Slider>
+                <div className="slider-box">
+                <Slider></Slider>
+                </div>
             </section>
         )
     }
