@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.97350ed1.chunk.css",
-    "main.js": "/Portafolio/static/js/main.ff928cfd.chunk.js",
-    "main.js.map": "/Portafolio/static/js/main.ff928cfd.chunk.js.map",
+    "main.css": "/Portafolio/static/css/main.df6c7942.chunk.css",
+    "main.js": "/Portafolio/static/js/main.db5d2974.chunk.js",
+    "main.js.map": "/Portafolio/static/js/main.db5d2974.chunk.js.map",
     "runtime-main.js": "/Portafolio/static/js/runtime-main.4daf7d2c.js",
     "runtime-main.js.map": "/Portafolio/static/js/runtime-main.4daf7d2c.js.map",
     "static/css/2.a0926485.chunk.css": "/Portafolio/static/css/2.a0926485.chunk.css",
-    "static/js/2.7e495970.chunk.js": "/Portafolio/static/js/2.7e495970.chunk.js",
-    "static/js/2.7e495970.chunk.js.map": "/Portafolio/static/js/2.7e495970.chunk.js.map",
+    "static/js/2.667a90f5.chunk.js": "/Portafolio/static/js/2.667a90f5.chunk.js",
+    "static/js/2.667a90f5.chunk.js.map": "/Portafolio/static/js/2.667a90f5.chunk.js.map",
     "index.html": "/Portafolio/index.html",
-    "precache-manifest.284851021b94f23a06b2c9a819ecbf55.js": "/Portafolio/precache-manifest.284851021b94f23a06b2c9a819ecbf55.js",
+    "precache-manifest.189c5f810ea02259739081c5acd09943.js": "/Portafolio/precache-manifest.189c5f810ea02259739081c5acd09943.js",
     "service-worker.js": "/Portafolio/service-worker.js",
     "static/css/2.a0926485.chunk.css.map": "/Portafolio/static/css/2.a0926485.chunk.css.map",
-    "static/css/main.97350ed1.chunk.css.map": "/Portafolio/static/css/main.97350ed1.chunk.css.map",
+    "static/css/main.df6c7942.chunk.css.map": "/Portafolio/static/css/main.df6c7942.chunk.css.map",
     "static/media/Fur.png": "/Portafolio/static/media/Fur.fadd6047.png",
+    "static/media/aprendiendo.png": "/Portafolio/static/media/aprendiendo.0c7630e5.png",
     "static/media/chain.jpg": "/Portafolio/static/media/chain.b386b371.jpg",
     "static/media/Home.css": "/Portafolio/static/media/earth-1149733_1920.1c86ad47.jpg",
     "static/media/marginalia-robots-and-drones.png": "/Portafolio/static/media/marginalia-robots-and-drones.50cc2a58.png",
@@ -23,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.4daf7d2c.js",
     "static/css/2.a0926485.chunk.css",
-    "static/js/2.7e495970.chunk.js",
-    "static/css/main.97350ed1.chunk.css",
-    "static/js/main.ff928cfd.chunk.js"
+    "static/js/2.667a90f5.chunk.js",
+    "static/css/main.df6c7942.chunk.css",
+    "static/js/main.db5d2974.chunk.js"
   ]
 }
