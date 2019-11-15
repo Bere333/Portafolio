@@ -5,16 +5,17 @@
 }
 .section-proyects{
     width:inherit;
-    height: 100vh;
+    height: 74vh;
     display: flex;
     flex-direction: column;
+    background-color: #1C2C38;
     
 
 }
 .text-proyects{
     text-align: center;
     padding: 2rem 1rem 4rem 3rem;
-    color:#373A47;
+    color:white;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
 
@@ -22,7 +23,7 @@
 
 .text-pro{
     text-align: center;
-    color:#373A47;
+    color:white;
     font-family: 'Raleway', sans-serif;
     font-size: 17px;
 }
@@ -36,6 +37,7 @@
 @media screen and (min-width: 800px) {
     .section-proyects{
         width:inherit;
+        
         
     };
     
