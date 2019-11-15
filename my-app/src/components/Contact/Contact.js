@@ -16,7 +16,8 @@ class Contact extends React.Component{
 
                    <div className="box-contact">
                     <p className="icons-contact" >
-                       <i className="fab fa-linkedin"></i><i class="fab fa-github-square"></i><i class="fas fa-envelope-square"></i>
+                    <a href="https://www.linkedin.com/in/berenice-ramos-6a5b39156/"><i className="fab fa-linkedin"></i></a>
+                       <i class="fab fa-github-square"></i><i class="fas fa-envelope-square"></i>
  
                     </p>
                    </div>
