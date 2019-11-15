@@ -11,7 +11,8 @@ import './Ability.css';
 
 
 
-import Avatar from './img/aprendiendo.png'
+import Learning from './img/aprendiendo.png'
+import Avatar from './img/avataaars.png'
 
 
 
@@ -20,8 +21,13 @@ class Aptitudes extends React.Component{
         return(
             <section className="section-ability">
                 <p className="text-ability">APTITUDES</p>
+                <div>
+                    <img src={Avatar} alt="Avatar" className="avatar-bere"></img>
+
+                </div>
 
                 <div className="images-ability">
+                    <br></br>
                 <div className = "soft">
                     <ul className="list-ability">
                         <li>Habilidades blandas:</li>
@@ -40,7 +46,7 @@ class Aptitudes extends React.Component{
                     </ul>
                     </div>
                     <div>
-                        <img src={Avatar} alt="Github" className="avatar"></img>
+                        <img src={Learning} alt="Github" className="avatar"></img>
                     </div>
                     <div className="tec">
                     <ul className="list-ability">
@@ -57,6 +63,7 @@ class Aptitudes extends React.Component{
                         <li>-Jest.js</li>
                         <li>-Linux</li>
                     </ul>
+                    <br></br>
                     </div>
                     
                     
