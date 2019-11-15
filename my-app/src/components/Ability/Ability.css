@@ -1,6 +1,6 @@
 .section-ability{
     width:inherit;
-    height: 140vh;
+    height: 180vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -51,6 +51,9 @@
     position: center;
     margin-left: 5rem;
 }
+.tec{
+    margin-top: 23vh;
+}
 
 @media screen and (min-width: 800px) {
     .section-ability{
@@ -70,5 +73,13 @@
     }
     .tec{
         display:block;
+        margin-top: 0vh;
+    }
+    .line-soft{
+        width: 15rem;
+        display: flex;
+        border-top: 3px double white;
+        position: center;
+        margin-left: 0.2rem;
     }
 }

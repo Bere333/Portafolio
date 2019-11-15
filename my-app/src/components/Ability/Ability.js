@@ -19,7 +19,7 @@ class Aptitudes extends React.Component{
     render(){
         return(
             <section className="section-ability">
-                <p className="text-ability">Aptitudes</p>
+                <p className="text-ability">APTITUDES</p>
 
                 <div className="images-ability">
                 <div className = "soft">
@@ -35,6 +35,7 @@ class Aptitudes extends React.Component{
                         <li>- Comunicación</li>
                         <li>- Curiosidad</li>
                         <li>- Proactividad</li>
+                        <li>- Investigación</li>
                         <li>- Y mucho más...</li>
                     </ul>
                     </div>
