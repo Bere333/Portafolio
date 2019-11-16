@@ -4,7 +4,8 @@ import './Home.css';
 import About from '../About/About';
 import Proyects from '../Proyects/Proyects';
 import Typical from './Typical.js';
-import Ability from '../Ability/Ability'
+import Ability from '../Ability/Ability';
+import Contact from '../Contact/Contact';
 // import Navbar from '../Navbar/Navbar'
 
 
@@ -25,6 +26,7 @@ class Home extends React.Component{
                 <About></About>
                 <Proyects></Proyects>
                 <Ability></Ability>
+                <Contact></Contact>
 
             </article>
         )
