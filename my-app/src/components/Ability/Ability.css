@@ -1,6 +1,6 @@
 .section-ability{
     width:inherit;
-    height: 180vh;
+    height: 190vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -50,16 +50,16 @@
     display: flex;
     border-top: 3px double white;
     position: center;
-    margin-left: 5rem;
+    margin-left: 4.8rem;
 }
 .tec{
     margin-top: 8vh;
 }
 .avatar-bere{
     display: block;
-    height: 30vh;
+    height: 33vh;
     width: 15rem;
-    margin-left: 5.5rem;
+    margin-left: 5rem;
     
 }
 
@@ -92,5 +92,21 @@
     }
     .avatar-bere{
         display: none;
+    }
+}
+
+/*Vista de mobile más pequeño*/
+
+@media screen and (max-width: 320px) {
+    .section-ability{
+        height: 230vh;  
+    }
+    .avatar-bere{
+        height: 36vh;
+        margin-left: 3rem;
+        
+    }
+    .line-soft{
+        margin-left: 2.9rem;
     }
 }

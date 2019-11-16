@@ -44,3 +44,12 @@
     
 
 }
+
+/*Vista de mobile más pequeño*/
+
+@media screen and (max-width: 320px) {  
+    .section-proyects{
+        width:inherit;
+        height: 80vh;
+    }
+}
