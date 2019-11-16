@@ -30,7 +30,7 @@
 }
 .box-contact{
     height: 20vh;
-    width: 30rem;
+    width: 18rem;
     text-align: center;
 
 }
@@ -93,10 +93,5 @@
     .icons-contact{
         padding: 1rem 1rem 0.5rem 2.6rem; 
     }
-    .box-contact{
-        
-        width: 18rem;
-        
     
-    }
 }
