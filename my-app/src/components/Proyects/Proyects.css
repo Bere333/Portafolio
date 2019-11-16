@@ -32,6 +32,10 @@
     justify-items: center; 
     
 }
+.img-carrousel{
+    padding: 0rem 0.5rem 0rem 0.4rem;
+    height: 5rem;
+}
 
 
 @media screen and (min-width: 800px) {
@@ -40,7 +44,10 @@
         
         
     };
-    
+    .img-carrousel{
+        padding: 0rem 0.5rem 0rem 0.5rem;
+        height: 5rem;
+    }
     
 
 }

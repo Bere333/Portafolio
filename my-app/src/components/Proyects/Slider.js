@@ -55,24 +55,18 @@ class SimpleSlider extends React.Component {
         <div>
 
         <Slider {...settings} >
-{/*      
-          <div>
-          <img src={Imagen} alt="imagen abstracta" id="image-slider" ></img>
-            
-          <p className="text-pro">Proyectos</p>
-            
-          </div> */}
-          <div>
+
+          <div className="img-carrousel">
             <img src={Chain} alt="imagen abstracta" id="image-slider" className="img-slider" style={{ width: 360 }}></img>
-            <p className="text-pro">Librería para encontrar links rotos</p>
+            <p className="text-pro">Librería para encontrar links rotos. <a href="https://github.com/Bere333/MEX008-FE-md-link.git">Ver</a></p>
           </div>
-          <div>
+          <div className="img-carrousel">
             <img src={Fur} alt="imagen abstracta" id="image-slider" style={{ width: 360 }}></img>
-            <p className="text-pro">Fur App: Red Social</p>
+            <p className="text-pro">Fur App: Red Social. <a href="https://github.com/Bere333/FUR-App.git">Ver</a></p>
           </div>
-          <div>
+          <div className="img-carrousel">
             <img src={Pan} alt="imagen abstracta" id="image-slider" style={{ width: 360 }}></img>
-            <p className="text-pro">Aplicación web para realizar pedidos<br></br>en un restaurant de comida rápida</p>
+            <p className="text-pro">Aplicación web para realizar pedidos<br></br>en un restaurant de comida rápida. <a href="https://github.com/Bere333/Pandmonium.git">Ver</a></p>
           </div>
          
          
