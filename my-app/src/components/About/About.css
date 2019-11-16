@@ -59,7 +59,7 @@
 
 @media screen and (max-width: 320px) {
     #robot{
-        height: 30vh;
+        height: 25vh;
         margin: 0rem 0.5rem 0rem 4.5rem;
     }
     .description-text{

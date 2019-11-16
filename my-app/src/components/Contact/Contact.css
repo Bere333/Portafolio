@@ -1,3 +1,8 @@
+*, /*Con esto ya no se mueve el navbar*/
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 .section-contact{
     width:inherit;
     height: 27vh;
@@ -86,6 +91,12 @@
 
 @media screen and (max-width: 320px) {    
     .icons-contact{
-        padding: 1rem 4rem 0.5rem 2.6rem; 
+        padding: 1rem 1rem 0.5rem 2.6rem; 
+    }
+    .box-contact{
+        
+        width: 18rem;
+        
+    
     }
 }
