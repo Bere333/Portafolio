@@ -1,8 +1,8 @@
 .section-contact{
     width:inherit;
-    height: 20vh;
+    height: 27vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     background-color:#030303 ;
 }
@@ -19,7 +19,7 @@
 .fab, .fa-linkedin, .fa-github-square, .fa-envelope-square{
     text-align: center;
     margin-right: 2rem;
-    font-size: 50px;
+    font-size: 70px;
     color: white;
     
 }
@@ -33,17 +33,17 @@
     display: flex;
     flex-direction: row;
     text-align: center;
-    padding: 2rem 4rem 2rem 10rem;
+    padding: 1rem 4rem 0.5rem 6rem;
     
 }
 .made{
-    text-align: left;
-    height: 20vh;
-    width: 50rem;
+    text-align: center;
+    height: 10vh;
+    width: inherit;
     /* padding: 5rem 4rem 2rem rem; */
 }
 .text-made{
-    padding: 5rem 0rem 0rem 5rem;
+    padding: 1rem 0rem 0rem 0rem;
 }
 .contact-all{
     display: flex;
@@ -51,5 +51,33 @@
     flex-direction: column;
 }
 @media screen and (min-width: 800px) {
-
+    .section-contact{
+        height: 20vh;
+    }
+    .box-contact{
+        height: 20vh;
+        width: 30rem;
+        text-align: center;
+    
+    }
+    .icons-contact{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding: 2rem 4rem 2rem 10rem;
+        
+    }
+    .made{
+        text-align: left;
+        height: 20vh;
+        width: 50rem;
+        /* padding: 5rem 4rem 2rem rem; */
+    }
+    .text-made{
+        padding: 5rem 0rem 0rem 5rem;
+    }
+    .section-contact{
+        flex-direction: row;
+    }
+    
 }
