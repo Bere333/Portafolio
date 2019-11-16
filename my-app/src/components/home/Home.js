@@ -21,7 +21,13 @@ class Home extends React.Component{
                 <div className="navbar-escritorio">
                     {/* <Navbar></Navbar> */}
                 </div>
-               <Typical></Typical>
+                <div>
+                    <Typical></Typical>
+
+                </div>
+               <div className="arrow">
+                    <i class="fas fa-chevron-down"></i>
+               </div>
             </section>
                 <About></About>
                 <Proyects></Proyects>
