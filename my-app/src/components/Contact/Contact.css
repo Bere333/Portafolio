@@ -33,7 +33,7 @@
     display: flex;
     flex-direction: row;
     text-align: center;
-    padding: 1rem 4rem 0.5rem 6rem;
+    padding: 1rem 4rem 0.5rem 4rem;
     
 }
 .made{
@@ -80,4 +80,12 @@
         flex-direction: row;
     }
     
+}
+
+/*Vista de mobile más pequeño*/
+
+@media screen and (max-width: 320px) {    
+    .icons-contact{
+        padding: 1rem 4rem 0.5rem 2.6rem; 
+    }
 }
