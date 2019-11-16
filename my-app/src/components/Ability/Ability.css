@@ -1,3 +1,8 @@
+*, /*Con esto ya no se mueve el navbar*/
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 .section-ability{
     width:inherit;
     height: 190vh;
