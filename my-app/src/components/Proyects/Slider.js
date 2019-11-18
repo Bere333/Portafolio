@@ -50,6 +50,12 @@ class SimpleSlider extends React.Component {
       
       return (
         <div className="box-slider">
+          <div className="text-pro pa">
+          <p>Estos son algunos proyectos <br></br>que he realizado de forma <br></br>individual y colaborativa.
+          <br></br>Y se crearon durante mi formación<br></br>en Laboratoria <i class="fas fa-heart" title="Laboratoria"></i>
+          </p>
+
+          </div>
 
         <Slider {...settings}>
 
