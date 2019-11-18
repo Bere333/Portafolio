@@ -47,6 +47,9 @@ header{
     margin-top: 1rem;
     
 }
+.navbar-home{
+    display: none;
+}
 
 @media screen and (min-width: 800px) {
     .section-main{
@@ -60,6 +63,42 @@ header{
     .fa-chevron-down{
         font-size: 70px;
     }
+    .navbar-home{
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        height: 10vh;
+        display: block;
+        background-color: #000000;
+        
+    }
+    a{
+        color: lavenderblush;
+        font-family: 'Raleway', sans-serif;
+    }
+    a:hover {
+        color: #FEE453;
+      }
+    a:focus{
+        color:#62DAF9;
+    }
+    .box-menu{
+        
+        padding: 0rem 0rem 0rem 25rem;
+    }
+    .list-menu{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .li-menu{
+        padding: 1rem 1rem 1rem 1rem;
+        
+    }
+    .fa-chevron-down{
+        padding: 20rem 0rem 0rem 0rem;
+    }
+    
     
     
 }

@@ -1,7 +1,9 @@
+
 import React from "react";
 // import { withRouter} from "react-router-dom"
 import './Proyects.css';
 import Slider from './Slider'
+// import Contact from '../Contact/Contact'
 
 
 
@@ -13,6 +15,7 @@ class Proyects extends React.Component{
                 <div className="slider-box">
                 <Slider></Slider>
                 </div>
+               
             </section>
         )
     }
