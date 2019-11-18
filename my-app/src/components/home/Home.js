@@ -18,7 +18,7 @@ class Home extends React.Component{
     render(){
         return(
             <article>
-            <section className="section-main">
+            <section className="section-main" id="home">
                 <nav className="navbar-home">
                     <div className="box-menu">
                     <ul className="list-menu">

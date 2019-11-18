@@ -5,7 +5,7 @@ import { useOnClickOutside } from './hooks';
 import { theme } from './theme';
 import Burger from './components/Burger/Burger';
 import Menu from './components/Menu/'
-import FocusLock from 'react-focus-lock';
+// import FocusLock from 'react-focus-lock';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './components/home/Home';
 import About from './components/About/About';
