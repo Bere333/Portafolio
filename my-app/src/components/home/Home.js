@@ -9,6 +9,7 @@ import Contact from '../Contact/Contact';
 // import Navbar from '../Navbar/Navbar'
 
 
+
 // import { Burger, Menu } from '../Burger/';
 
 
@@ -18,21 +19,47 @@ class Home extends React.Component{
         return(
             <article>
             <section className="section-main">
-                <div className="navbar-escritorio">
-                    {/* <Navbar></Navbar> */}
-                </div>
+                <nav className="navbar-home">
+                    <div className="box-menu">
+                    <ul className="list-menu">
+                        <li className="li-menu"><a href="#home">Inicio</a></li>
+                        <li className="li-menu"><a href="#aboutme">Sobre mi</a></li>
+                        <li className="li-menu"><a href="#myproyects">Proyectos</a></li>
+                        <li className="li-menu"><a href="#myability">Aptitudes</a></li>
+                        <li className="li-menu"><a href="#mycontact">Contacto</a></li>
+                    </ul>
+
+                    </div>
+                </nav>
+                <div></div>
+
                 <div>
+                    <br></br>
+                    <br></br>
                     <Typical></Typical>
 
                 </div>
                <div className="arrow">
-                    <i class="fas fa-chevron-down"></i>
+               <a href="#aboutme"><i class="fas fa-chevron-down"></i></a>
+                  
                </div>
             </section>
+                <div id ="aboutme">
+
                 <About></About>
+                </div >
+                <div id="myproyects">
+
                 <Proyects></Proyects>
+                </div>
+                <div id="myability">
+
                 <Ability></Ability>
+                </div>
+                <div id="mycontact">
                 <Contact></Contact>
+
+                </div>
 
             </article>
         )
