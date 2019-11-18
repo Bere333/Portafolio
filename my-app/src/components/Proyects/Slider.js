@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // import Imagen from './img/mirage-waiting.png';
-import Chain from './img/chain.jpg';
+ import Chain from './img/chain.jpg';
 import Fur from './img/Fur.png';
 import Pan from './img/pan.jpg';
 import './Proyects.css';
@@ -19,18 +19,21 @@ class SimpleSlider extends React.Component {
           speed: 1500,
           autoplaySpeed: 2000,
           cssEase: "linear",
-          adaptiveHeight: true,
-          variableWidth: true,
+          // adaptiveHeight: true,
+          // variableWidth: true,
+          style:{ width: 280 },
+          arrows:true,
+          centerMode:true,
           responsive: [
             {
-              breakpoint: 1024,
+              breakpoint: 800,
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: true,
                 dots: true,
                 display: true,
-                
+                style:{ width: 580 },
               }
             },
             {
@@ -52,20 +55,26 @@ class SimpleSlider extends React.Component {
       };
       
       return (
-        <div>
+        <div className="box-slider">
 
         <Slider {...settings} >
 
-          <div className="img-carrousel">
-            <img src={Chain} alt="imagen abstracta" id="image-slider" className="img-slider" style={{ width: 360 }}></img>
+          <div >
+            {/* <div>
+              <img src={Chain} alt="md-links" className=""></img>
+            </div> */}
+            
+            <img src={Chain} alt="imagen abstracta" className="img-slider" ></img>
+
             <p className="text-pro">Librería para encontrar links rotos. <a href="https://github.com/Bere333/MEX008-FE-md-link.git">Ver</a></p>
+            
           </div>
-          <div className="img-carrousel">
-            <img src={Fur} alt="imagen abstracta" id="image-slider" style={{ width: 360 }}></img>
-            <p className="text-pro">Fur App: Red Social. <a href="https://github.com/Bere333/FUR-App.git">Ver</a></p>
+          <div >
+            <img src={Fur} alt="imagen abstracta" className="img-slider" ></img>
+            <p className="text-pro">Fur App: aplicación web para amantes <br></br>de los animales. <a href="https://github.com/Bere333/FUR-App.git">Ver</a></p>
           </div>
-          <div className="img-carrousel">
-            <img src={Pan} alt="imagen abstracta" id="image-slider" style={{ width: 360 }}></img>
+          <div >
+            <img src={Pan} alt="imagen abstracta" className="img-slider" ></img>
             <p className="text-pro">Aplicación web para realizar pedidos<br></br>en un restaurant de comida rápida. <a href="https://github.com/Bere333/Pandmonium.git">Ver</a></p>
           </div>
          

@@ -25,7 +25,7 @@
     text-align: center;
     color:white;
     font-family: 'Raleway', sans-serif;
-    font-size: 17px;
+    font-size: 14px;
 }
 .slider-box{
     width: 360;
@@ -33,11 +33,40 @@
     
 }
 .img-carrousel{
-    padding: 0rem 0.5rem 0rem 0.4rem;
-    height: 5rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    /* padding: 0rem 0.5rem 0rem 0.4rem; */
+    /* margin-right:3rem ; */
+    
+    /* width: 300px; */
+    height: 40vh;
+    background-color: #191919;
 }
-
-
+.img-slider{
+    width: 100%;
+    height: 30vh;
+    /* padding: 1.5rem 1rem 0rem 1rem; */
+}
+/* .links, .red, .pedidos{
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+.links{
+    background-image: url('./img/chain.jpg');
+}
+.red{
+    background-image: url('./img/Fur.png');
+}
+.pedidos{
+    background-image: url('./img/pan.jpg');
+} */
+.box-slider{
+    padding: 0rem 0.5rem 0rem 3rem;
+    
+}
 @media screen and (min-width: 800px) {
     .section-proyects{
         width:inherit;

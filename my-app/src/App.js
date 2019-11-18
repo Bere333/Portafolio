@@ -15,6 +15,7 @@ function App() {
   const [open, setOpen] = useState(false);
   const node = useRef();
   const menuId = "main-menu";
+  
 
   useOnClickOutside(node, () => setOpen(false));
 
@@ -28,7 +29,7 @@ function App() {
             <div className="burger">
             <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
             </div>
-            <Menu open={open} setOpen={setOpen} id={menuId} />
+            <Menu open={open} setOpen={setOpen} id={menuId} cosa="Holi"/>
           </FocusLock>
           
           <Router basename={window.location.pathname || ""}>
