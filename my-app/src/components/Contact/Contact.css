@@ -28,6 +28,12 @@
     color: white;
     
 }
+.fa-atom{
+    color: #62DAF9;
+}
+.fa-code{
+    color:#E59FC1
+}
 .box-contact{
     height: 20vh;
     width: 18rem;
