@@ -50,6 +50,11 @@ header{
 .navbar-home{
     display: none;
 }
+a{
+    color: lavenderblush;
+    font-family: 'Raleway', sans-serif;
+}
+
 
 @media screen and (min-width: 800px) {
     .section-main{
@@ -79,9 +84,7 @@ header{
     a:hover {
         color: #FEE453;
       }
-    a:focus{
-        color:#62DAF9;
-    }
+    
     .box-menu{
         
         padding: 0rem 0rem 0rem 25rem;
