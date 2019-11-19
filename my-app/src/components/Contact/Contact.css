@@ -90,6 +90,11 @@
     .section-contact{
         flex-direction: row;
     }
+
+    a:hover{
+        transform: scale(1.2);
+    }
+
     
 }
 

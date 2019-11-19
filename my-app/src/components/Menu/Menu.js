@@ -10,12 +10,16 @@ import { StyledMenu } from './Menu.styled';
 const Menu = ({ open, ...props }) => {
   
   const isHidden = open ? true : false;
-  // const tabIndex = isHidden ? 0 : -1;
+  const tabIndex = isHidden ? 0 : -1;
 
 
   return (
     <StyledMenu open={open} aria-hidden={!isHidden} {...props}>
-     
+      <a href="#home" tabIndex={tabIndex}>Inicio</a>
+      <a href="#aboutme" tabIndex={tabIndex}>Sobre mi</a>
+      <a href="#myproyects" tabIndex={tabIndex}>Proyectos</a>
+      <a href="#myability" tabIndex={tabIndex}>Aptitudes</a>
+      <a href="#mycontact" tabIndex={tabIndex}>Contacto</a>
      
        
     </StyledMenu>
