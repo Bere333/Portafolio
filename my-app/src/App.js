@@ -29,24 +29,18 @@ function App() {
           <div ref={node}> 
           {/* <FocusLock disabled={!open}> */}
             <div className="burger">
-            <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
+              <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
             </div>
-          <Router basename={window.location.pathname || ""}>
-            <Menu open={open} setOpen={setOpen} id={menuId} cosa="Holi">
+           <Router basename={window.location.pathname || ""}>
+              <Menu open={open} setOpen={setOpen} id={menuId} cosa="Holi"/>
             
-          
-           
-            
-      
-            </Menu>
-          
-            <Switch>
-              <Route   exact={true} path="/" ><HomeRoute></HomeRoute></Route>
+              <Switch>
+                  <Route   exact={true} path="/" ><HomeRoute></HomeRoute></Route>
               
              
-            </Switch>
-          {/* </FocusLock> */}
-          </Router>
+              </Switch>
+                {/* </FocusLock> */}
+            </Router>
         </div>
 
         
@@ -55,7 +49,9 @@ function App() {
     </ThemeProvider>
   );
 }
-function HomeRoute() {
-  return <Home></Home>;
-}
+
+  function HomeRoute() {
+    return <Home></Home>;
+  }
+
 export default App;
