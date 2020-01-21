@@ -5,7 +5,7 @@
 }
 .section-ability{
     width:inherit;
-    height: 190vh;
+    height: 208vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -104,7 +104,7 @@
 
 @media screen and (max-width: 320px) {
     .section-ability{
-        height: 230vh;  
+        height: 250vh;  
     }
     .avatar-bere{
         height: 36vh;

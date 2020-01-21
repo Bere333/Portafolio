@@ -14,10 +14,12 @@ class About extends React.Component{
                     Soy una desarrolladora Front-End, <br></br>
                     amante de la ciencia y la tecnología.<br></br>
                     Mi hobbie es investigar temas que <br></br>
-                    me apasionen y sean <br></br>
-                    útiles para la sociedad.<br></br>
-                    Mi sueño es usar la física y la programación<br></br>
-                    para desarrollo de la investigación y de la sociedad.<br></br><br></br><br></br></p>
+                    me apasionen y sean útiles<br></br>
+                    para la sociedad.<br></br>
+                    En un futuro cercano, pretendo profundizar en Node.js y<br></br>
+                    aprender Python, y en el futuro lejano<br></br> 
+                    hacer ciencia de datos con ayuda de la<br></br>
+                    inteligencia artificial.<br></br><br></br><br></br></p>
                 <img src={Image} alt="imagen abstracta" id="robot"></img>
             </section>
         )
