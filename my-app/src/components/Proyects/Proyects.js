@@ -13,7 +13,7 @@ class Proyects extends React.Component{
             <section className="section-proyects">
                 <p className="text-proyects">PROYECTOS</p>
                 <div className="slider-box">
-                <Slider></Slider>
+                    <Slider></Slider>
                 </div>
                
             </section>

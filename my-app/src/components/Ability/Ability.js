@@ -53,13 +53,15 @@ class Aptitudes extends React.Component{
                         <li>Habilidades técnicas:</li>
                         <hr className="line-soft"></hr>
                         <br></br>
-                        <li>-Github</li>
-                        <li>-Git</li>
                         <li>-JavaScript Vanilla</li>
                         <li>-React</li>
+                        <li>-Redux</li>
+                        <li>-API REST`(fetch, axios)`</li>
+                        <li>-Node.js</li>
+                        <li>-Github</li>
+                        <li>-Git</li>
                         <li>-Firebase</li>
                         <li>-npm</li>
-                        <li>-Node.js</li>
                         <li>-Jest.js</li>
                         <li>-Linux</li>
                     </ul>

@@ -25,11 +25,10 @@
 
 }
 #robot{
-    height: 40vh;
+    height: 30vh;
     width: auto;
-    border-radius: 10px;
-    
-    margin: 0.5rem 0.5rem 1rem 3rem;
+    border-radius: 10px; 
+    margin: 0.5rem 0.5rem 1rem 5rem;
 }
 
 @media screen and (min-width: 800px) {
@@ -58,6 +57,9 @@
 /*Vista de mobile más pequeño*/
 
 @media screen and (max-width: 320px) {
+    #about-me{
+        height: 117vh;
+    }
     #robot{
         height: 25vh;
         margin: 0rem 0.5rem 0rem 4.5rem;
