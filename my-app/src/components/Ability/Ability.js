@@ -56,6 +56,8 @@ class Aptitudes extends React.Component{
                         <li>-JavaScript Vanilla</li>
                         <li>-React</li>
                         <li>-Redux</li>
+                        <li>-Vue</li>
+                        <li>-Vuex</li>
                         <li>-API REST`(fetch, axios)`</li>
                         <li>-Node.js</li>
                         <li>-Github</li>
@@ -64,6 +66,10 @@ class Aptitudes extends React.Component{
                         <li>-npm</li>
                         <li>-Jest.js</li>
                         <li>-Linux</li>
+                        <li>-Apache Server</li>
+                        <li>-Apache Cordova</li>
+                        <li>-Dialogflow</li>
+
                     </ul>
                     <br></br>
                     </div>

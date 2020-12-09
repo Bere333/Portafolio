@@ -1,11 +1,12 @@
 import React from "react";
 import Slider from "react-slick";
+import { BrowserRouter as Link } from "react-router-dom";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // import Imagen from './img/mirage-waiting.png';
- import Chain from './img/chain.jpg';
-import Fur from './img/Fur.png';
-import Pan from './img/pan.jpg';
+ import Hermano from './img/preview_hermanomx.png';
+import ApacheServer from './img/apacheServer.jpg';
+import Chatbot from './img/chatbot.png';
 import './Proyects.css';
 
 class SimpleSlider extends React.Component {
@@ -52,30 +53,24 @@ class SimpleSlider extends React.Component {
         <div className="box-slider">
           <div className="text-pro pa">
           <p>Estos son algunos proyectos <br></br>que he realizado de forma <br></br>individual y colaborativa.
-          <br></br>Y se crearon durante mi formación<br></br>en Laboratoria <i class="fas fa-heart" title="Laboratoria"></i>
+          <br></br>Y se crearon durante mi anterior<br></br>empleo. <i class="fas fa-heart" title="Laboratoria"></i>
           </p>
 
           </div>
 
         <Slider {...settings}>
 
-          <div>
-            {/* <div>
-              <img src={Chain} alt="md-links" className=""></img>
-            </div> */}
-            
-            <img src={Chain} alt="imagen abstracta"  ></img>
-
-            <p className="text-pro">Librería para encontrar links rotos. <a href="https://github.com/Bere333/MEX008-FE-md-link.git">Ver</a></p>
-            
+          <div>         
+            <img src={Hermano} alt="imagen abstracta"  ></img>
+            <p className="text-pro">HermanoMx: Aplicación híbrida para realizar pedidos a tiendas locales.</p>
           </div>
           <div >
-            <img src={Fur} alt="imagen abstracta" ></img>
-            <p className="text-pro">Fur App: aplicación web para amantes <br></br>de los animales. <a href="https://github.com/Bere333/FUR-App.git">Ver</a></p>
+            <img src={ApacheServer} alt="imagen abstracta" ></img>
+            <p className="text-pro">AriesPagos: uso de directivas para agregar host <br></br>de aplicación web.</p>
           </div>
           <div >
-            <img src={Pan} alt="imagen abstracta"></img>
-            <p className="text-pro">Aplicación web para realizar pedidos<br></br>en un restaurant de comida rápida. <a href="https://github.com/Bere333/Pandmonium.git">Ver</a></p>
+            <img src={Chatbot} alt="imagen abstracta"></img>
+            <p className="text-pro">Desarrollo de chatbot con <br></br>Dialogflow.</p>
           </div>
          
          
