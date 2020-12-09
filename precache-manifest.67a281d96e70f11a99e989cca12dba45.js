@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6293e12e6ad251a20b78eceded0d89c",
+    "revision": "48f1bc2f706277cd47dbd292fdbcb3aa",
     "url": "/Portafolio/index.html"
   },
   {
-    "revision": "c6c810579dcd5c665888",
-    "url": "/Portafolio/static/css/2.a0926485.chunk.css"
+    "revision": "225038cd211735be4398",
+    "url": "/Portafolio/static/css/2.84aabcaa.chunk.css"
   },
   {
-    "revision": "846276e1e29de5ce814e",
-    "url": "/Portafolio/static/css/main.5b40c98f.chunk.css"
+    "revision": "5b3898b7bb65379edf4b",
+    "url": "/Portafolio/static/css/main.a41adddd.chunk.css"
   },
   {
-    "revision": "c6c810579dcd5c665888",
-    "url": "/Portafolio/static/js/2.a78e7db0.chunk.js"
+    "revision": "225038cd211735be4398",
+    "url": "/Portafolio/static/js/2.c7548fb7.chunk.js"
   },
   {
-    "revision": "846276e1e29de5ce814e",
-    "url": "/Portafolio/static/js/main.ca5f74fe.chunk.js"
+    "revision": "5b3898b7bb65379edf4b",
+    "url": "/Portafolio/static/js/main.26e90c78.chunk.js"
   },
   {
     "revision": "743e32ef4bc99d5ca8bd",
     "url": "/Portafolio/static/js/runtime-main.4daf7d2c.js"
   },
   {
-    "revision": "fadd6047d016b1fafa02f1420e1c84a2",
-    "url": "/Portafolio/static/media/Fur.fadd6047.png"
+    "revision": "2eed5ab9387f207a3680cfa2a8eb32c1",
+    "url": "/Portafolio/static/media/apacheServer.2eed5ab9.jpg"
   },
   {
     "revision": "0c7630e5b2c024ef4909880a7417cbe7",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portafolio/static/media/avataaars.3e53bf6c.png"
   },
   {
-    "revision": "b386b3711c4ab622482f5a4eed3c9745",
-    "url": "/Portafolio/static/media/chain.b386b371.jpg"
+    "revision": "cdb3053baaf8b0e2476326f94d280441",
+    "url": "/Portafolio/static/media/chatbot.cdb3053b.png"
   },
   {
     "revision": "1c86ad47a526b6dffc013d1f0eb58a01",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portafolio/static/media/marginalia-robots-and-drones.50cc2a58.png"
   },
   {
-    "revision": "089cafbe77813ff6fa322b91a596daa8",
-    "url": "/Portafolio/static/media/pan.089cafbe.jpg"
+    "revision": "382fb1d2593b8860af4c230e36a41aae",
+    "url": "/Portafolio/static/media/preview_hermanomx.382fb1d2.png"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
