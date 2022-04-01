@@ -11,9 +11,9 @@ class Proyects extends React.Component{
     render(){
         return(
             <section className="section-proyects">
-                <p className="text-proyects">PROYECTOS</p>
+                <p className="text-proyects">Experiencia</p>
                 <div className="slider-box">
-                    <Slider></Slider>
+                    <Slider/>
                 </div>
                
             </section>

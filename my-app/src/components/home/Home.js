@@ -18,49 +18,41 @@ class Home extends React.Component{
     render(){
         return(
             <article>
-            <section className="section-main" id="home">
-                <nav className="navbar-home">
-                    <div className="box-menu">
-                    <ul className="list-menu">
-                        <li className="li-menu"><a href="#home">Inicio</a></li>
-                        <li className="li-menu"><a href="#aboutme">Sobre mi</a></li>
-                        <li className="li-menu"><a href="#myproyects">Proyectos</a></li>
-                        <li className="li-menu"><a href="#myability">Aptitudes</a></li>
-                        <li className="li-menu"><a href="#mycontact">Contacto</a></li>
-                    </ul>
+                <section className="section-main" id="home">
+                    <nav className="navbar-home">
+                        {/* <div className="box-menu"> */}
+                            <ul className="list-menu">
+                                <li className="li-menu"><a href="#home">Inicio</a></li>
+                                <li className="li-menu"><a href="#aboutme">Sobre mi</a></li>
+                                <li className="li-menu"><a href="#myproyects">Experiencia</a></li>
+                                <li className="li-menu"><a href="#myability">Aptitudes</a></li>
+                                <li className="li-menu"><a href="#mycontact">Contacto</a></li>
+                            </ul>
+                        {/* </div> */}
+                    </nav>
+                    <div></div>
 
+                    <div>
+                        <br></br>
+                        <br></br>
+                        <Typical></Typical>
                     </div>
-                </nav>
-                <div></div>
-
-                <div>
-                    <br></br>
-                    <br></br>
-                    <Typical></Typical>
-
+                <div className="arrow">
+                        <a href="#aboutme"><i class="fas fa-chevron-down"></i></a>
                 </div>
-               <div className="arrow">
-               <a href="#aboutme"><i class="fas fa-chevron-down"></i></a>
-                  
-               </div>
-            </section>
+                </section>
                 <div id ="aboutme">
-
-                <About></About>
+                    <About/>
                 </div >
                 <div id="myproyects">
-
-                <Proyects></Proyects>
+                    <Proyects/>
                 </div>
                 <div id="myability">
-
-                <Ability></Ability>
+                    <Ability/>
                 </div>
                 <div id="mycontact">
-                <Contact></Contact>
-
+                    <Contact/>
                 </div>
-
             </article>
         )
     }

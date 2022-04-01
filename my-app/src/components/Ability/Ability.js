@@ -1,18 +1,7 @@
 import React from 'react';
 import './Ability.css';
-// import Github from './img/github-2.png'
-// import Git from './img/git.png'
-// import Js from './img/javascript.png'
-// import ReactImage from './img/react-icon-png-7.png'
-// import FirebaseImage from './img/firebase.png'
-// import NpmImage from './img/npm-512.png'
-// import NodeImage from './img/nodejs.png' 
-// import JestImage from './img/jest-logo.png'
-
-
-
-import Learning from './img/aprendiendo.png'
-import Avatar from './img/avataaars.png'
+import Learning from './img/aprendiendo.png';
+import Avatar from './img/avataaars.png';
 
 
 
@@ -30,7 +19,7 @@ class Aptitudes extends React.Component{
                     <br></br>
                 <div className = "soft">
                     <ul className="list-ability">
-                        <li>Habilidades blandas:</li>
+                        <li style={{'color': '#EC8893'}}>Habilidades blandas:</li>
                         <hr className="line-soft"></hr>
                         <br></br>
                         <li>- Autoaprendizaje</li>
@@ -50,7 +39,7 @@ class Aptitudes extends React.Component{
                     </div>
                     <div className="tec">
                     <ul className="list-ability">
-                        <li>Habilidades técnicas:</li>
+                        <li style={{'color':'#D68CDC'}}>Habilidades técnicas:</li>
                         <hr className="line-soft"></hr>
                         <br></br>
                         <li>-JavaScript Vanilla</li>
@@ -69,7 +58,7 @@ class Aptitudes extends React.Component{
                         <li>-Apache Server</li>
                         <li>-Apache Cordova</li>
                         <li>-Dialogflow</li>
-
+                        <li>-Python</li>
                     </ul>
                     <br></br>
                     </div>
